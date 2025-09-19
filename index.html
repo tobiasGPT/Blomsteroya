@@ -30,10 +30,11 @@
     .cta{display:inline-flex; gap:10px; align-items:center; background:linear-gradient(135deg, var(--brand), #bfdbfe); color:#1e3a8a; padding:10px 16px; border-radius:999px; font-weight:700; transition:background .2s ease}
     .cta:hover{background:linear-gradient(135deg, var(--accent), #93c5fd)}
 
-    .hero{padding:64px 0 40px}
+    .hero{padding:64px 0 40px; text-align:center}
     .hero h1{font-size:38px; line-height:1.1; margin:8px 0}
     .hero p{color:var(--muted); margin:8px 0 16px}
-    .badges{display:flex; gap:10px; flex-wrap:wrap}
+    .hero-logo{max-width:320px; margin:0 auto 20px; display:block}
+    .badges{display:flex; gap:10px; flex-wrap:wrap; justify-content:center}
     .badge{font-size:12px; padding:6px 10px; border:1px solid var(--line); border-radius:999px; color:var(--fg); background:var(--brand)}
 
     section{padding:32px 0; border-top:1px solid var(--line)}
@@ -75,6 +76,7 @@
   <main>
     <section class="hero">
       <div class="wrap">
+        <img src="https://tobiasgpt.github.io/Blomsteroya/Blomsteroyafrisor.png" alt="Blomsterøya Frisør logo" class="hero-logo">
         <div class="badges">
           <span class="badge">Ny kunde? 20% første behandling</span>
           <span class="badge">Drop-in når ledig</span>
@@ -82,7 +84,7 @@
         </div>
         <h1>Frisørtime på Blomsterøya – raskt, hyggelig og profesjonelt</h1>
         <p>Klipp, farge, striper og styling – tilpasset din stil og hverdag. Enkelt å bestille, lett å elske.</p>
-        <div style="display:flex; gap:10px; flex-wrap:wrap">
+        <div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:center">
           <a class="cta" href="https://booking.example.com/blomsteroya" target="_blank">Bestill time nå</a>
           <a class="cta" style="background:linear-gradient(135deg, var(--accent), #bfdbfe); color:#1e3a8a" href="tel:+4798654693">Ring +47 986 54 693</a>
         </div>
