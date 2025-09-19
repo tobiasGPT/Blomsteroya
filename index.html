@@ -26,8 +26,9 @@
     header{position:sticky; top:0; z-index:10; backdrop-filter:blur(8px); background:rgba(255,255,255,.8); border-bottom:1px solid var(--line)}
     .nav{display:flex; align-items:center; justify-content:space-between; padding:14px 0}
     .brand{display:flex; gap:10px; align-items:center; font-weight:700}
-    .brand img{height:32px; width:auto; border-radius:6px}
-    .cta{display:inline-flex; gap:10px; align-items:center; background:linear-gradient(135deg, var(--brand), #bfdbfe); color:#1e3a8a; padding:10px 16px; border-radius:999px; font-weight:700}
+    .brand img{height:28px; width:auto; border-radius:6px; max-width:120px}
+    .cta{display:inline-flex; gap:10px; align-items:center; background:linear-gradient(135deg, var(--brand), #bfdbfe); color:#1e3a8a; padding:10px 16px; border-radius:999px; font-weight:700; transition:background .2s ease}
+    .cta:hover{background:linear-gradient(135deg, var(--accent), #93c5fd)}
 
     .hero{padding:64px 0 40px}
     .hero h1{font-size:38px; line-height:1.1; margin:8px 0}
@@ -64,7 +65,7 @@
   <header>
     <div class="wrap nav">
       <div class="brand">
-        <img src="images/login_logo@2x.png" alt="Logo">
+        <img src="images/login_logo@2x.png" alt="Blomsterøya Frisør logo">
         BLOMSTERØYA FRISØR AS
       </div>
       <nav><a class="cta" href="#bestill">Bestill time</a></nav>
@@ -82,7 +83,7 @@
         <h1>Frisørtime på Blomsterøya – raskt, hyggelig og profesjonelt</h1>
         <p>Klipp, farge, striper og styling – tilpasset din stil og hverdag. Enkelt å bestille, lett å elske.</p>
         <div style="display:flex; gap:10px; flex-wrap:wrap">
-          <a class="cta" href="#bestill">Bestill time nå</a>
+          <a class="cta" href="https://booking.example.com/blomsteroya" target="_blank">Bestill time nå</a>
           <a class="cta" style="background:linear-gradient(135deg, var(--accent), #bfdbfe); color:#1e3a8a" href="tel:+4798654693">Ring +47 986 54 693</a>
         </div>
       </div>
@@ -103,7 +104,7 @@
           </ul>
           <p style="color:var(--muted); font-size:12px; margin-top:8px">*Gjelder nye kunder. Kan ikke kombineres med andre rabatter.</p>
           <div style="margin-top:10px; display:flex; gap:10px; flex-wrap:wrap">
-            <a class="cta" href="#bestill">Sikre deg rabatten</a>
+            <a class="cta" href="https://booking.example.com/blomsteroya" target="_blank">Sikre deg rabatten</a>
           </div>
         </div>
         <div class="card">
@@ -129,7 +130,7 @@
           <strong>Klar for ny frisyre?</strong>
           <div style="color:var(--muted); font-size:14px">Ledige timer denne uken – få 20% som ny kunde</div>
         </div>
-        <a class="cta" href="#">Bestill time</a>
+        <a class="cta" href="https://booking.example.com/blomsteroya" target="_blank">Bestill time</a>
       </div>
     </section>
 
@@ -162,7 +163,7 @@
             <strong>Adresse:</strong> Kråkerøyveien 11, 1671 Kråkerøy
           </p>
           <div style="display:flex; gap:10px; flex-wrap:wrap">
-            <a class="cta" href="#">Bestill time</a>
+            <a class="cta" href="https://booking.example.com/blomsteroya" target="_blank">Bestill time</a>
             <a class="cta" style="background:linear-gradient(135deg, var(--accent), #bfdbfe); color:#1e3a8a" href="tel:+4798654693">Ring oss</a>
           </div>
         </div>
